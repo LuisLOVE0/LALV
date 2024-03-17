@@ -60,7 +60,7 @@ header{
      .button2{
         text-decoration:none; 
         text-align:center; 
-        padding: 50px 80px;
+        padding: 50px 69px;
         -webkit-border-radius:5px;
         -moz-border-radius:5px; 
         border-radius: 5px; 
@@ -70,3 +70,42 @@ header{
         background:#ffc800; 
         margin-left: -44px;
          }
+         .button3{
+            text-decoration:none; 
+            text-align:center; 
+            padding: 50px 57px;
+            -webkit-border-radius:5px;
+            -moz-border-radius:5px; 
+            border-radius: 5px; 
+            font:20px Arial, Helvetica, sans-serif; 
+            font-weight:bold; 
+            color:#000000; 
+            background:#ffc800; 
+            margin-left: -44px;
+             }
+ .button4{
+text-decoration:none; 
+text-align:center; 
+padding: 50px 57px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px; 
+border-radius: 5px; 
+font:20px Arial, Helvetica, sans-serif; 
+font-weight:bold; 
+color:#000000; 
+background:#ffc800; 
+margin-left: -44px;
+}
+.button5{
+    text-decoration:none; 
+    text-align:center; 
+    padding: 62px 69.5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px; 
+    border-radius: 5px; 
+    font:20px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#000000; 
+    background:#ffc800; 
+    margin-left: -44px;
+    }
