@@ -1,9 +1,17 @@
 *{
-    background-color: orange;
+    font-family: "Itim", cursive;
+    background-color: rgb(246, 181, 61);
 }
-.header{
+footer{
+    position: fixed;
+    margin: -16px;
+    height: 100px;
+    width: 3000px;
+    background-color: rgb(182, 2, 2);
+}
+header{
     margin: -8px;
-    background-color: white;
+    background-color: rgb(254, 152, 0);
     width: 100%;
     height: 100px;
     padding-right: 15px;
@@ -11,5 +19,54 @@
     align-items: center;
     justify-content: center;
     font-size: 50px;
-    
 }
+.content{
+    display: flex;
+}
+.columna {
+    width: 200px;
+    flex-direction: column;
+}
+.columna ul {
+    list-style-type: none; 
+    padding: 0;
+}
+.columna ul li {
+    margin-top: -15.9px;
+    padding: 46px;
+    background-color: #bc7410; 
+    margin-left: -10px; 
+    font-size: 20px;
+}
+.contenido{
+    font-size: 20px;
+}
+.contenido img{
+    float: left;
+}
+.button1{
+    text-decoration:none; 
+    text-align:center; 
+    padding: 50px 80px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px; 
+    border-radius: 5px; 
+    font:20px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#000000; 
+    background:#ffc800; 
+    margin-left: -44px;
+     }
+     .button2{
+        text-decoration:none; 
+        text-align:center; 
+        padding: 50px 80px;
+        -webkit-border-radius:5px;
+        -moz-border-radius:5px; 
+        border-radius: 5px; 
+        font:20px Arial, Helvetica, sans-serif; 
+        font-weight:bold; 
+        color:#000000; 
+        background:#ffc800; 
+        margin-left: -44px;
+         }
