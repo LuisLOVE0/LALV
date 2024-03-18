@@ -6,8 +6,16 @@ footer{
     position: fixed;
     margin: -16px;
     height: 100px;
-    width: 3000px;
+    width: 1550px;
     background-color: rgb(182, 2, 2);
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}
+footer p{
+    background: rgb(182, 2, 2);
+
 }
 header{
     margin: -8px;
