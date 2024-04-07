@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="esti_form.css">
+    <title>Segundo ejercicio de javascript</title>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+    <form id="formulariodelbanco2" action="" onsubmit="return validar(this)">
+        <label for="Sueldobase">Sueldo base</label>
+        <br>
+        <input type="text" id="Sueldobase" name="Sueldobase" required>
+        <br>
+        <label for="1venta">Venta 1 precio:</label>
+        <br>
+        <input type="text" id="1venta" name="1venta" required>
+        <br>
+        <label for="2venta">Venta 2 precio:</label>
+        <br>
+        <input type="text" id="2venta" name="2venta" required>
+        <br>
+        <label for="3venta">Venta 3 precio:</label>
+        <br>
+        <input type="text" id="3venta" name="3venta" required>
+
+        <input type="submit" value="Calcular Ganancia">
+    <div id="resultado" style="display: none;">
+        <h2>Ganancia en un mes:</h2>
+        <p id="Ganancia"></p>
+    </div>
+    </form>
+    <script src="formulas.js"></script>
+    </body>
+    </html>
