@@ -45,14 +45,15 @@ h2{
     background-color: coral;
     margin-bottom: 0;
 }
-p[id="Ganancia"]{
+p[id="Ganancia1"]{
     font-size: 20px;
     background-color: coral;
     margin-top: 0;
+    z-index: 1;
 }
 form[id="formulariodelbanco"]{
     height: 250px;
 }
 form[id="formulariodelbanco2"]{
-    height: 600px;
+    height: 1000px;
 }
