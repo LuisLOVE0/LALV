@@ -1,16 +1,16 @@
-document.getElementById("genderForm").addEventListener("submit", function(event) {
+document.getElementById("Formdegenero").addEventListener("submit", function(event) {
     event.preventDefault();
-    var maleCount = parseInt(document.getElementById("maleCount").value);
-    var femaleCount = parseInt(document.getElementById("femaleCount").value);
+    var hombres = parseInt(document.getElementById("hombres").value);
+    var mujeres = parseInt(document.getElementById("mujeres").value);
 
-    if (isNaN(maleCount) || isNaN(femaleCount)) {
-        alert("Por favor ingresa números válidos para el número de hombres y mujeres.");
+    if (isNaN(hombres) || isNaN(mujeres)) {
+        alert("Ingresa solo números.");
         return;
     }
 
-    var total = maleCount + femaleCount;
-    var malePercentage = (maleCount / total) * 100;
-    var femalePercentage = (femaleCount / total) * 100;
+    var total = hombres + mujeres;
+    var Porcentajedehombres = (hombres / total) * 100;
+    var Porcentajedemujeres = (mujeres / total) * 100;
 
-    document.getElementById("result").innerHTML = "<h2>Porcentaje de Hombres: " + malePercentage.toFixed(2) + "%</h2><p>Porcentaje de Mujeres: " + femalePercentage.toFixed(2) + "%</p>";
+    document.getElementById("resultado").innerHTML = "<h2>Porcentaje de Hombres: " + Porcentajedehombres.toFixed(2) + "%</h2><p>Porcentaje de Mujeres: " + Porcentajedemujeres.toFixed(2) + "%</p>";
 });

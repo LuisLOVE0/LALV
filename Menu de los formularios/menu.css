@@ -1,7 +1,13 @@
 *{
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
+body{
+    background-image: url(javascript.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 60px;
@@ -11,10 +17,19 @@ a{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     text-align: left;
     text-decoration: none;
-    color: aqua;
+    color: rgb(116, 0, 0);
     font-size: 30px;
 }
 ul{
     list-style-type: none;
     padding-left: 0;
+}
+footer{
+    width: 1495px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 0px;
+    margin-left: -8px;
+    margin-top: auto;
 }

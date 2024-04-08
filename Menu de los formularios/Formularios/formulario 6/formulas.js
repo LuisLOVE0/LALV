@@ -1,21 +1,21 @@
 function calculateAge() {
-    var day = parseInt(document.getElementById("day").value);
-    var month = parseInt(document.getElementById("month").value);
-    var year = parseInt(document.getElementById("year").value);
+    var dias = parseInt(document.getElementById("dias").value);
+    var meses = parseInt(document.getElementById("meses").value);
+    var años = parseInt(document.getElementById("años").value);
 
-    var today = new Date();
-    var birthDate = new Date(year, month - 1, day);
+    var hoy = new Date();
+    var nacimiento = new Date(años, meses - 1, dias);
     
-    if (isNaN(birthDate.getTime())) {
-        document.getElementById("result").innerHTML = "Por favor, introduce una fecha válida.";
+    if (isNaN(nacimiento.getTime())) {
+        document.getElementById("resultado").innerHTML = "Por favor, introduce una fecha válida.";
         return;
     }
 
-    var age = today.getFullYear() - birthDate.getFullYear();
-    var m = today.getMonth() - birthDate.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-        age--;
+    var edad = hoy.getFullYear() - nacimiento.getFullYear();
+    var m = hoy.getMonth() - nacimiento.getMonth();
+    if (m < 0 || (m === 0 && hoy.getDate() < birthDate.getDate())) {
+        edad--;
     }
 
-    document.getElementById("result").innerHTML = "La edad es: " + age;
+    document.getElementById("resultado").innerHTML = "La edad es: " + edad;
 }
