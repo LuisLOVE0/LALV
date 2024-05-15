@@ -1,0 +1,14 @@
+{
+  "name": "09expres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "LuisLP"
+  },
+  "author": "LuisLP",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "08node",
+  "version": "1.0.0",
+  "description": "\"Ejemplo de un hola mundo con node\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\"Tu",
+    "primer",
+    "programa\""
+  ],
+  "author": "LuisLOPEZ",
+  "license": "ISC"
+}
