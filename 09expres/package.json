@@ -1,7 +1,6 @@
 {
   "name": "09expres",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "LuisLP"
@@ -10,5 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
